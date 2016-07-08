@@ -1,7 +1,5 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/frytyler/pen/EGdtg.
+A Pen created at CodePen.io. You can find this one at http://codepen.io/suez/pen/dPqxoM.
 
- I built this login form to block the front end of most of my freelance wordpress projects during the development stage. 
+ Based on this - https://dribbble.com/shots/1945593-Login-Home-Screen
 
-This is just the HTML / CSS of it but it uses wordpress's login system. 
-
-Nice and Simple
+Right now svg-icons not appears in IE (css animation). All 4 icons are hardcoded with numbers, just for fun :D
