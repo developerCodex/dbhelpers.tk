@@ -1,3 +1,0 @@
-# developerCodex.github.io
-
-HI
