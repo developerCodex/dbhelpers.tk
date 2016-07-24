@@ -1,0 +1,107 @@
+/* Code Copyright (c) 2016 Hackzzila/Zachary Vacura */
+/* Licensed to devCodex. The license expires on January 1, 2017 */
+/* You are not permitted to change or edit any files in any way without the written consent of Zachary Vacura */
+html, body {
+  background: #000;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: inline-block;
+}
+
+.wrapper .left h1.title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 6vw;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  left: 3vw;
+}
+
+.wrapper .left h2.subtitle {
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 2.5vw;
+  font-weight: normal;
+  position: absolute;
+  top: 9vw;
+  left: 3.5vw;
+}
+
+.wrapper .left a.invite {
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 1.5vw;
+  position: absolute;
+  left: 35vw;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-decoration: none;
+  border: 3px solid white;
+  padding: 20px;
+  width: 8vw;
+  text-align: center;
+  transition: all 250ms ease-in-out;
+}
+
+.wrapper .left a.invite:hover {
+  width: 10vw;
+  padding: 25px;
+  border-width: 5px;
+  font-size: 2vw;
+}
+
+.wrapper .right {
+  font-family: 'Monsterrat', sans-serif;
+  position: absolute;
+  right: -3px;
+  top: 10vh;
+  bottom: 10vh;
+  width: 30vw;
+  border: 3px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+}
+
+.wrapper .right h2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-100%);
+  font-weight: normal;
+  font-size: 2vw;
+  text-align: center;
+  right: 0;
+  left: 0;
+}
+
+.wrapper .footer {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.wrapper .footer .watermark {
+  font-family: 'Monsterrat', sans-serif;
+  font-weight: 700;
+  font-size: 2.25vw;
+  color: white;
+  float: left;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.wrapper .footer .text {
+  float: left;
+  font-size: 1vw;
+}
+
+.wrapper .footer .text p {
+  margin: 0;
+}
+
+.wrapper .footer .text a {
+  color: white;
+}
